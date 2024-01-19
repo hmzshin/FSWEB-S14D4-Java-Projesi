@@ -1,3 +1,5 @@
+package com.s14d4.ProductForSale;
+
 public class Chocolate extends ProductForSale {
     private double cacaoPercentage;
 

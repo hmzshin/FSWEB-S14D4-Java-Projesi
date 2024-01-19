@@ -1,3 +1,5 @@
+package com.s14d4.ProductForSale;
+
 public abstract class ProductForSale {
     private String type;
     private long price;

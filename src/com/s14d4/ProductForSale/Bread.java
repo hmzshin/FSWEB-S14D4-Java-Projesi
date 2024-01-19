@@ -1,3 +1,5 @@
+package com.s14d4.ProductForSale;
+
 public class Bread extends ProductForSale {
     private String kind;
 

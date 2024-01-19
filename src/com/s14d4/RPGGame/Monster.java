@@ -1,3 +1,5 @@
+package com.s14d4.RPGGame;
+
 public abstract class Monster implements Bleedable, Poisonable {
     private String name;
     private int hisPoint;
@@ -30,7 +32,7 @@ public abstract class Monster implements Bleedable, Poisonable {
     public double poison() {
         return this.getDamage() * 0.3;
     }
-    
+
     public double attack() {
         return this.getDamage() + this.bleed() + this.poison();
     }
